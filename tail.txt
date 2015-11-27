@@ -1,0 +1,5 @@
+ </head>
+<linkhref=”css/style.css”rel=’stylesheet’/>
+<body></body>
+<scriptsrc=”js/js.js”></script>
+</html>

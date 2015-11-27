@@ -1,0 +1,53 @@
+   26  mkdir git
+   27  cd git
+   28  git clone https://github.com/designerYan/exam.git
+   30  cp -r ~/exam ~/Desktop/git/exam
+   31  cd git
+   36  git add exam
+   37  git add css
+   38  git commit -m "I added css"
+   39  git config --global user.name "designerYan"
+   40  git config --global user.email whu25@my.bcit.ca
+   41  git commit -m "I added css"
+   42  git status
+   45  cp * ~/Desktop/git/exam
+   46  cp -r css ~/Desktop/git/exam
+   47  cp -r js ~/Desktop/git/exam
+   49  git add css
+   50  git commit -m "I added css"
+   51  git push origin master
+   52  git add js
+   53  git commit -m "I added js"
+   54  git push origin master
+   55  git add index.html
+   56  git commit -m "I added index.html"
+   57  git push origin master
+   65  cd git
+   67  git branch v2.0
+   68  git branch
+   69  git push origin v2.0
+   70  git branch
+   72  git status
+   73  git add index.html
+   74  git commit -m "modified index.html"
+   75  git pull --no-edit
+   76  git push origin master
+   77  git checkout v2.0
+   78  git merge master
+   79  git commit -m "merge"
+   80  git push origin v2.0
+   82  git branch v3.0
+   83  git branch
+   84  git push origin v3.0
+   85  git checkout master
+   87  git add index.html
+   88  git commit -m "modified index.html"
+   89  git pull --no-edit
+   90  git push origin master
+   91  git checkout v3.0
+   92  git merge master
+   93  git commit -m "merge"
+   94  git push origin v3.0
+   96  git checkout master
+  102  history | grep "git"
+  103  history | grep "git" > ~/Desktop/history.txt
